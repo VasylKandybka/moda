@@ -1,0 +1,189 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    /* background-color: rgb(255, 145, 204); */
+    margin: 0;
+    padding: 40px;
+}
+
+h2 {
+    color: rgb(150, 0, 150);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    clear: both;
+}
+
+img{
+    max-width: 100%;
+}
+
+a {
+    color: rgb(187, 37, 233);
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+#wrap {
+    width: 80%;
+    margin: auto;
+}
+
+ul.menu {
+    list-style: none;
+    text-align: center;
+}
+
+ul.menu li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul.menu li a {
+    background-color: rgb(210, 152, 255);
+    width: 200px;
+    height: 48px;
+    display: block;
+    margin: 8px;
+    padding: 8px;
+}
+
+/* img{
+    display: block;
+    margin: auto;
+} */
+header {
+    background-color: rgb(255, 145, 204);
+    background-image: url(./images/background.png);
+    background-size: cover;
+    padding: 60px;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 80px;
+    display: block;
+    margin: auto;
+}
+
+.logo>img {
+    width: 80px;
+
+}
+
+main {
+    padding: 40px;
+}
+
+.left {
+    float: left;
+    padding: 0 40px 40px 0;
+}
+
+.right {
+    float: right;
+    padding: 0px 0px 40px 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.column {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.galery .picture {
+    display: inline-block;
+    width: 280px;
+    background-color: #fff;
+    text-align: center;
+    padding: 16px;
+    height: 240px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.galery .picture img {
+    height: 140px;
+}
+
+footer {
+    border-top: solid blueviolet 2px;
+    color: rgb(197, 39, 218);
+
+}
+
+.box {
+    width: 320px;
+    margin: 40px auto;
+}
+
+.box a {
+    padding: 10px;
+    color: rgb(106, 31, 177);
+}
+
+#up {
+    display: block;
+    background-color: rgb(214, 132, 255);
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #wrap{
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .galery .picture {
+        padding: 0;
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    ul.menu {
+        padding: 0;
+    }
+
+    footer .box {
+        width: 320px;
+    }
+
+    #up {
+        right: 10px;
+    }
+}
